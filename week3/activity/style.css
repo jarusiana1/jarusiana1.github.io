@@ -1,0 +1,101 @@
+BODY{
+    background-color: #16365d;
+}
+
+P{
+    font-family: Arial;
+    color: white;
+}
+ul{
+    color: WHITE;
+}
+.HEAD1{
+    color: WHITE;
+    display: flex;
+    justify-content: flex-end;
+    font-family: ARIAL;
+}
+.TAB{
+    color: red;
+    font-style: italic;
+    
+}
+.TAB2{
+    color: magenta;
+}
+.D{
+    color: red;
+    text-decoration: underline;
+    font-weight: BOLD;
+}
+.MED{
+    color: RED;
+    DISPLAY: FLEX;
+    justify-content: center;
+    font-family: Arial;
+
+}
+.E{
+    color: yellow;
+    text-decoration: underline;
+}
+.F{
+    color: blue;
+    font-weight: BOLD;
+}
+.G{
+    color: rgb(51, 255, 0);
+    font-weight: BOLD;
+}
+.FOR{
+    color: white;
+    background-color: BLACK;
+    border-top: 2PX SOLID RED;
+    border-left: 2px solid magenta;
+    width: 50%;
+    padding-bottom: 3%;
+    font-family: Arial;
+}
+
+.H{
+    color: blue;
+    font-style: italic;
+}
+
+.I{
+    color: red;
+    font-weight: bold;
+}
+.br{
+    display: flex;
+    justify-content: flex-end;
+}
+.J{
+    color: black;
+    background-color: rgb(51, 255, 0);
+}
+.CON{
+    color: rgb(51, 255, 0);
+    font-family: Arial;
+}
+.O{
+    color: white;
+    background-color: BLACK;
+    border-left: 2PX SOLID magenta;
+    border-right: 2PX SOLID yellow;
+    font-style: italic;
+    padding: 1%;
+    font-family: Arial;
+
+}
+.P2{
+    background-color: RED;
+}
+
+.GAL{
+    color: YELLOW;
+    border-bottom: 2px solid yellow;
+    text-align: center;
+    width: 350px;
+    font-family: Arial;
+}

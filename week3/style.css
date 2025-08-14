@@ -1,0 +1,30 @@
+h1{
+    color:black;
+}
+p{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: arial;
+    background-color: plum;
+    width: 16%;
+    margin: 100px;
+
+}
+.P1{
+    COLOR: black;
+    background-color: violet;
+    width: 16%;
+    border: 5px solid lightcoral;
+}
+
+.S{
+    color: hotpink;
+}
+body{
+    background-color: powderblue;
+    background-image: url(images/fink.jpg);
+    background-size: cover;
+}
