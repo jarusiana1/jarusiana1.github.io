@@ -1,0 +1,55 @@
+body {
+    background-color: tan;
+}
+
+.wrapp {
+    display: flex;
+}
+.A {
+    background-color: white;
+    width: 200px;
+    height: 195px;
+    border-right: 20px solid black;
+    border-bottom: 20px solid black;
+}
+.B {
+    background-color: white;
+    width: 200px;
+    height: 195px;
+    border-right: 20px solid black;
+    border-top: 20px solid black;
+    border-bottom: 20px solid;
+}
+.C {
+    background-color: red;
+    width: 500px;
+    height: 430px;
+    border-bottom: 20px solid black;
+}
+
+.D {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border-right: 20px solid black;
+}
+.E {
+    background-color: white;
+    width: 430px;
+    height: 200px;
+}
+
+.F{
+    background-color: white;
+    width: 50px;
+    height: 80px;
+    border-left: 20px solid black;
+    border-bottom: 20px solid black;
+}
+.G {
+    background-color: yellow;
+    width: 50px;
+    height: 80px;
+    border-left: 20px solid black;
+    border-top: 20px solid black;
+}
