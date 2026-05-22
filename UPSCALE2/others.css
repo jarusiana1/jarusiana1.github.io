@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.logo {
+  height: 45px;
+}
+
+@media (max-width: 300px) {
+  .logo {
+    height: 35px;
+  }
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.7);
+}
+
+/* Sticky Navbar */
+.navbar {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;          
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  background: rgba(0, 255, 64, 0.816);
+  padding: 12px 20px;
+  z-index: 1000;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .navbar a {
+    font-size: 0.75rem;
+  }
+}
+
+/* Flyer Layout */
+.flyer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  max-width: 1200px;
+  margin: 20px auto;
+  background: rgba(255,255,255,0.35); /* semi-transparent */
+  border-radius: 8px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+
+.left-section, .right-section {
+  width: 48%;
+}
+
+/* Image - Adjusted with shadow */
+.left-section img {
+  width: 80%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 6px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+
+/* Plans Table */
+.plans {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.plans th, .plans td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+.plans th {
+  background: rgba(0,66,22,0.85);
+  color: #fff;
+  font-size: 16px;
+}
+
+.plans tr:nth-child(even) {
+  background: rgba(242,242,242,0.7);
+}
+
+.plans td {
+  font-size: 15px;
+}
+
+/* Installation Box */
+.install-box {
+  background: rgba(240,248,255,0.6);
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.install-box strong {
+  color: #004080;
+}
+
+/* Right Section */
+.right-section h2 {
+  color: #004080;
+  margin-bottom: 15px;
+}
+
+.camera-list {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.camera-list li {
+  background: rgba(242,242,242,0.7);
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* Subscribe Button */
+.subscribe {
+  display: inline-block;
+  background: #004080;
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+.subscribe:hover {
+  background: #0066cc;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+/* Contact Section */
+.contact {
+  margin-top: 20px;
+  font-size: 14px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.contact a {
+  color: #004080;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
