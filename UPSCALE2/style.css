@@ -15,7 +15,7 @@ body, html {
   height: 45px;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 480px) {
   .logo {
     height: 35px;
   }
@@ -97,7 +97,7 @@ body, html {
 }
 
 .hero-text {
-  color: white;
+  color: rgb(255, 255, 255);
   text-shadow: 2px 2px 5px black;
   max-width: 90%;
 }
@@ -105,7 +105,7 @@ body, html {
 .hero-text h1 {
   font-size: 3rem;
   margin-bottom: 15px;
-  color: rgba(0, 203, 78, 0.956);
+  color: rgb(255, 255, 255);
 }
 
 .hero-text p {
@@ -132,7 +132,6 @@ body, html {
   }
 }
 
-/* Slide-in animation */
 @keyframes slideIn {
   0% {
     opacity: 0;

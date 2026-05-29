@@ -63,7 +63,7 @@
     height: 100%;
     object-fit: cover;
     filter: brightness(0.7);
-    transition: opacity 2s ease, transform 8s ease; /* smooth fade + zoom */
+    transition: opacity 2s ease, transform 8s ease; 
     will-change: opacity, transform;
 }
 
@@ -90,7 +90,7 @@
     color: white;
     text-align: center;
     padding: 0 10px;
-    transition: opacity 1.5s ease; /* fade animation for text */
+    transition: opacity 1.5s ease;
 }
 
 .hero-text h1 {
@@ -141,7 +141,7 @@
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     transition: transform 0.3s, box-shadow 0.3s, opacity 0.8s ease;
     cursor: pointer;
-    opacity: 0; /* start hidden for scroll animation */
+    opacity: 0;
 }
 
 .card img {

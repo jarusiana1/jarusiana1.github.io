@@ -1,11 +1,9 @@
 // about.js
 
-// Background slideshow + hero text animation
 window.addEventListener("DOMContentLoaded", () => {
   const bgImg = document.querySelector(".bg img");
   const heroText = document.getElementById("hero-text");
 
-  // Array of background images (use HD versions if available)
   const backgrounds = [
     "images/OFFICER.jpg",
     "images/OFFICE.jpg",
@@ -15,46 +13,37 @@ window.addEventListener("DOMContentLoaded", () => {
 
   let currentIndex = 0;
 
-  // Initial styles
   bgImg.style.opacity = 0;
   heroText.style.opacity = 0;
   bgImg.style.transition = "opacity 2s ease, transform 8s ease";
   heroText.style.transition = "opacity 1.5s ease";
 
-  // Function to change background + animate text
   function changeSlide() {
-    // Fade out
     bgImg.style.opacity = 0;
     heroText.style.opacity = 0;
 
     setTimeout(() => {
-      // Change background image
       currentIndex = (currentIndex + 1) % backgrounds.length;
       bgImg.src = backgrounds[currentIndex];
 
-      // Fade in background and text
       bgImg.style.opacity = 1;
       heroText.style.opacity = 1;
 
-      // Subtle zoom effect for HD feel
       bgImg.style.transform = "scale(1.05)";
       setTimeout(() => {
         bgImg.style.transform = "scale(1)";
       }, 4000);
-    }, 1000); // wait for fade out
+    }, 1000); // 
   }
 
-  // First fade in
   setTimeout(() => {
     bgImg.style.opacity = 1;
     heroText.style.opacity = 1;
   }, 500);
 
-  // Change slide every 5 seconds
   setInterval(changeSlide, 5000);
 });
 
-// Animate cards when they appear
 const cards = document.querySelectorAll(".card");
 
 const observer = new IntersectionObserver(
